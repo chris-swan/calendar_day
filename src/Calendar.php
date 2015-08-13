@@ -12,7 +12,11 @@
             //Converts Julian Day into day of week.
             $day_of_week = jddayofweek($jd_date, 1);
 
-            return $day_of_week;
+            if ($day_of_week == "Monday") {
+                return $day_of_week . "; that sucks!";
+            } else {
+                return $day_of_week;
+            }
         }
     }
 ?>
