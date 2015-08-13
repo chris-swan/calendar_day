@@ -14,7 +14,7 @@
         $new = new Calendar;
         $day_of_week = $new->checkCalendar($_GET['date']);
     //    $word = $_GET['date'];
-        return $app['twig']->render('calendar_results.html.twig', array('date' => $day_of_week);
+        return $app['twig']->render('calendar_results.html.twig', array('date' => $day_of_week));
     });
 
     return $app;
