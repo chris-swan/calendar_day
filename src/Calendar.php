@@ -10,8 +10,6 @@
             $day_of_week = jddayofweek($jd_date, 1);
 
             return $day_of_week;
-
-
         }
     }
 ?>
