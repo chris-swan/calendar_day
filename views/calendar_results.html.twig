@@ -1,10 +1,13 @@
 <html>
     <head>
+        <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css'>
+        <link rel='stylesheet' href='css/styles.css' type='text/css'>
         <title>Results</title>
     </head>
     <body>
-        <h1> Here is your day: {{ date }} </h1>
-        <a href='/'><button type='button' class='btn btn-danger' id='return'>Check another date!</button></a>
-
+        <div class='container'>
+            <h1> Your birthday will be on a {{ date }}!</h1>
+            <a href='/'><button type='button' class='button' id='return'>Try again!</button></a>
+        </div>
     </body>
 </html>

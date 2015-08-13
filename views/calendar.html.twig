@@ -1,13 +1,18 @@
 <html>
     <head>
+        <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css'>
+        <link rel='stylesheet' href='css/styles.css' type='text/css'>
         <title>Enter your date</title>
     </head>
-        <form action="/calendar_results">
-            <label for="date"> Enter your date to look up: </label>
-            <input type="date" name="date" id="date">
-            <button type="submit">submit</button>
-        </form>
     <body>
-
+        <div class='container'>
+            <h1>Which day of the week will your birthday be on?</h1>
+            <form action="/calendar_results">
+                <div class='form-group'>
+                    <input type="date" name="date" id="date"><br><br>
+                    <button type="submit" class='button'></button>
+                </div>
+            </form>
+        </div>
     </body>
 </html>

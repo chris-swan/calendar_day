@@ -1,0 +1,23 @@
+body{
+    background-image: url(http://www.freelargeimages.com/wp-content/uploads/2014/11/Happy_birthday_cake-5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+h1{
+    color: white;
+}
+
+.button{
+    background-image: url(http://graphichive.net/uploaded/fordesigner/1313011862.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width:100px;
+    height:80.5px;
+    border: 2px solid;
+    border-radius: 25px;
+    color: #CC00FF;
+    text-shadow: 0px black, 1px black, 1px black, 0px black;
+}
