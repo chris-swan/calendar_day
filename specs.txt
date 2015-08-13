@@ -1,0 +1,5 @@
+Interface: User submits date to form (d/m/y) and app returns the day of the week for that date.
+
+1.  Behavior: one input, full date
+    Input: 8/1/2003
+    Output: Friday
