@@ -11,9 +11,19 @@ Setup
 
 Clone this repository.
 
-run composer install
+- navigate to the top level of the project folder and run "composer install" to install composer
+( If you do not have composer on your system, install using terminal: 
 
-Start PHP server in web directory. Open web browser to localhost:8000/
+> cd ~
+> sudo mkdir -p /usr/local/bin
+> sudo chown -R $USER /usr/local/
+> curl -sS https://getcomposer.org/installer | php
+> mv composer.phar /usr/local/bin/composer
+
+)
+
+- Once composer is installed, start a PHP server by navigating terminal to the 'web' folder, and start the server using "php -S localhost:8000" 
+- Open web browser to "localhost:8000/" to view site
 
 Technologies Used
 
